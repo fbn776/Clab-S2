@@ -7,20 +7,25 @@ ex no - 6
 #include <math.h>
 
 void main() {
-    int N, i, j;
+    int N, count = 0, i = 2, j, root;
     printf("Enter N: ");
     scanf("%d", &N);
 
-    for (i = 2; i <= N; i++) {
+    while (count < N) {
         int isPrime = 1;
-        for(j = 2; j <= sqrt(i); j++) {
-            if(i % j == 0) {
+        root = sqrt(i);
+        for (j = 2; j <= root; j++) {
+            if (i % j == 0) {
                 isPrime = 0;
                 break;
             }
         }
-        if(isPrime)
+        if (isPrime) {
             printf("%d ", i);
+            count++;
+        }
+        i++;
     }
+
     printf("\n");
 }

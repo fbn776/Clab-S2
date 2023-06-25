@@ -1,6 +1,6 @@
 /*
 Ex - 10
-bubble sorting in ascending order
+Bubble sorting in ascending order
 29) Febin Nelson P, S2 CSE
 */
 #include <stdio.h>

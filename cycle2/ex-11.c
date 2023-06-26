@@ -14,13 +14,12 @@ void main() {
         scanf(" %d", &nums[i]);
 
     printf("Enter number to search: ");
-    scanf("%d", &key);
+    scanf(" %d", &key);
 
     bottom = N - 1;
 
     while(top < bottom) {
         middle = top + (bottom - top) / 2;
-        printf("Middle is %d\n", nums[middle]);
         if(nums[middle] < key) {
             top = middle + 1;
         }else if(nums[middle] > key) {

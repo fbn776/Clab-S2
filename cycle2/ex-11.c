@@ -20,19 +20,18 @@ void main() {
 
     while(top < bottom) {
         middle = top + (bottom - top) / 2;
-        if(nums[middle] < key) {
+        if(nums[middle] < key)
             top = middle + 1;
-        }else if(nums[middle] > key) {
+        else if(nums[middle] > key)
             bottom = middle - 1;
-        }else {
+        else {
             top = bottom = middle;
             break;
         }
     }
 
-    if(top == bottom) {
+    if(top == bottom)
         printf("Found at index %d\n", top + 1);
-    }else {
+    else
         printf("Not found");
-    }
 }

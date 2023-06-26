@@ -15,7 +15,7 @@ void main() {
 
     for (i = 0; i < N; i++)
         for(j=0; j < N-i-1; j++)
-            if(nums[j] < nums[j+1]) {
+            if(nums[j] > nums[j+1]) {
                 int temp = nums[j];
                 nums[j] = nums[j+1];
                 nums[j+1] = temp;

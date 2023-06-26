@@ -2,7 +2,11 @@
 ###### - 2022
 
 ### Code dump!!
-A repo for sharing KTU S2 C-Lab exercises. The codes along with the questions are shared. The code is subdivided into cycles. Each cycles have a `Questions.md` file. Which contain the question for the respective cycle.
+A repo for sharing KTU S2 C-Lab exercises.
+
+The codes along with the questions are shared.
+
+The code is subdivided into cycles. Each cycles have a `Questions.md` file, along with the respective code with the file name `ex-[number].c`, where `[number]` is the exercise number. `Questions.md` contains the questions for the respective cycle.
 
 
 

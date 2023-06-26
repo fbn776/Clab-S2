@@ -25,7 +25,7 @@ void main() {
         }
 
     if(found)
-        printf("Found %d at index %d\n", key, index);
+        printf("Found %d at position %d\n", key, index);
     else
         printf("Item not found\n");
 }

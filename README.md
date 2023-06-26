@@ -1,11 +1,16 @@
 # C lab-S2
 ###### - 2022
 
-This repo contains all the excises code for C lab in my semester 2.
+### Code dump!!
+A repo for sharing KTU S2 C-Lab exercises.
 
-The codes are splitted into different cycles. Each cycle has a C concept behind.
-ie. `cycle1` is all about iterative statements, `cycle2` is about arrays and so on.
+The codes along with the questions are shared.
 
-    The code may contain some errors.
+The code is subdivided into cycles. Each cycles have a `Questions.md` file, along with the respective code with the file name `ex-[number].c`, where `[number]` is the exercise number. `Questions.md` contains the questions for the respective cycle.
 
-###### Written by: Febin Nelson P
+
+
+    Warning: 
+    The code may have some bugs, not all were tested.
+    This repo contains the code for my S2 CSE C-lab, the exercises might be different for you. 
+

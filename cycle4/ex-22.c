@@ -21,7 +21,7 @@ void main() {
 
 	printf("Enter text: ");
 	scanf("%[^\n]", text);
-
+	//Split the words based on spaces;
 	while (text[i] != '\0') {
 		if (text[i] == ' ') {
 			startIndex = 0;

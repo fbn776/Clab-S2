@@ -1,7 +1,6 @@
 /*
 Ex - 2
 Number of days in a month
-29) Febin Nelson P, S2 CSE
 */
 #include <stdio.h>
 

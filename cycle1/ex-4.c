@@ -1,7 +1,7 @@
 /*
 Ex no - 4
-29) Febin Nelson P, S2 CSE
-*/
+Largest and smallest number in a set of N numbers
+ */
 
 #include <stdio.h>
 void main() {

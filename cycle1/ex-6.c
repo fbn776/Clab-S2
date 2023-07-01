@@ -1,8 +1,7 @@
 /*
 ex no - 6
- 29) Febin Nelson P, S2 CSE
+First N prime numbers
 */
-
 #include <stdio.h>
 #include <math.h>
 
@@ -14,12 +13,11 @@ void main() {
     while (count < N) {
         int isPrime = 1;
         root = sqrt(i);
-        for (j = 2; j <= root; j++) {
+        for (j = 2; j <= root; j++)
             if (i % j == 0) {
                 isPrime = 0;
                 break;
             }
-        }
         if (isPrime) {
             printf("%d ", i);
             count++;

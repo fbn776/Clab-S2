@@ -1,7 +1,7 @@
 /*
 ex no - 5
- 29) Febin Nelson P, S2 CSE
-*/
+Binary to decimal
+ */
 
 #include <stdio.h>
 #include <math.h>

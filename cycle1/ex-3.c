@@ -1,7 +1,7 @@
 /*
 Ex no - 3
-29) Febin Nelson P, S2 CSE
-*/
+GCD and LCM
+ */
 #include <stdio.h>
 void main() {
     int a, b, prod;

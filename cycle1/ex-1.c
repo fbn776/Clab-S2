@@ -1,7 +1,6 @@
 /*
 Ex - 1
 Roots of a quadratic equation.
-29) Febin Nelson P, S2 CSE
 */
 #include <stdio.h>
 #include <math.h>

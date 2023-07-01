@@ -1,8 +1,3 @@
-/*
-Ex - 13
-List merge
-29) Febin Nelson P, S2 CSE
-*/
 #include <stdio.h>
 
 void main() {

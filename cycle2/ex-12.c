@@ -1,10 +1,4 @@
-/*
-Ex - 12
-Set union and intersection
-29) Febin Nelson P, S2 CSE
-*/
 #include <stdio.h>
-
 void main() {
     int A[30], B[30], Union[60], Intrs[30], m, n, i, j, unIndex, inIndex = 0;
 

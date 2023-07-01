@@ -1,8 +1,3 @@
-/*
-Ex - 10
-Bubble sorting in ascending order
-29) Febin Nelson P, S2 CSE
-*/
 #include <stdio.h>
 
 void main() {

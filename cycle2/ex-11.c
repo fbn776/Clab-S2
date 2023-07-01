@@ -1,8 +1,3 @@
-/*
-Ex - 11
-Binary number
-29) Febin Nelson P, S2 CSE
-*/
 #include <stdio.h>
 
 void main() {
@@ -14,7 +9,7 @@ void main() {
         scanf(" %d", &nums[i]);
 
     printf("Enter number to search: ");
-    scanf(" %d", &key);
+    scanf(" %d", &key);7
 
     bottom = N - 1;
 

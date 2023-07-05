@@ -1,5 +1,8 @@
+/*
+Ex - 10
+Bubble sort of N integers
+*/
 #include <stdio.h>
-
 void main() {
     int N, nums[30], i, j;
     printf("Enter N: ");

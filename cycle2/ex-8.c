@@ -1,3 +1,7 @@
+/*
+Ex - 8
+Linear Search
+*/
 #include <stdio.h>
 
 void main() {

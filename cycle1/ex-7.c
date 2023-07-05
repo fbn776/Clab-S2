@@ -2,9 +2,7 @@
 ex no - 7
 First N prime numbers
 */
-
 #include <stdio.h>
-
 void main() {
 	int N, i, j;
 	printf("Enter N: ");

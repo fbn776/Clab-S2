@@ -1,5 +1,8 @@
+/*
+Ex - 9
+Binary to decimal
+*/
 #include <stdio.h>
-
 void main() {
     int dec, i = 0, j, bin[20];
 

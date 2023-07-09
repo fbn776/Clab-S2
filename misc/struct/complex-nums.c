@@ -1,3 +1,11 @@
+/*
+ * Program to find the sum and product of two complex numbers represented using struct.
+ * Sample output:
+Enter complex number 1 (a b): 1 5
+Enter complex number 2 (c d): 10 12
+Sum of complex numbers: 11.00 + 17.00i
+Product of complex numbers: -50.00 + 62.00i
+ */
 
 #include <stdio.h>
 

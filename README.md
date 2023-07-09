@@ -15,3 +15,4 @@ where `[number]` is the exercise number.
     The code may have bugs, not all were tested.
     This repo contains the code for my S2 CSE C-lab, the exercises might be different for you. 
 
+This repo also contains a directory called [misc](./misc). This directory contains miscellaneous codes for testing and learning stuff.

@@ -1,3 +1,15 @@
+/*
+ * Program to find the sum of two polynomials of m and n degrees.
+ * Sample output;
+Enter degree of polynomial 1: 3
+Enter terms: 1 4 5
+Enter degree of polynomial 2: 2
+Enter terms: 2 3
+1.00x^3 + 4.00x^2 + 5.00x^1
+2.00x^2 + 3.00x^1
+------------------------------
+1.00x^3 + 6.00x^2 + 8.00x^1
+*/
 #include <stdio.h>
 
 void inputInt(char prompt[100], int *to) {

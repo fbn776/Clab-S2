@@ -9,7 +9,7 @@ void main() {
         scanf(" %d", &nums[i]);
 
     printf("Enter number to search: ");
-    scanf(" %d", &key);7
+    scanf(" %d", &key);
 
     bottom = N - 1;
 

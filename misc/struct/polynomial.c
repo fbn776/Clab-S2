@@ -2,16 +2,15 @@
  * Program to find the sum of two polynomials of m and n degrees.
  * Sample output;
 Enter degree of polynomial 1: 3
-Enter terms: 1 4 5
+Enter terms: 1 4 5 4
 Enter degree of polynomial 2: 2
-Enter terms: 2 3
-1.00x^3 + 4.00x^2 + 5.00x^1
-2.00x^2 + 3.00x^1
+Enter terms: 2 3 2
+1.00x^3 + 4.00x^2 + 5.00x^1 + 4.00x^0
+2.00x^2 + 3.00x^1 + 2.00x^0
 ------------------------------
 1.00x^3 + 6.00x^2 + 8.00x^1
 */
 #include <stdio.h>
-
 void inputInt(char prompt[100], int *to) {
 	printf("%s", prompt);
 	scanf(" %d", to);
@@ -25,7 +24,7 @@ typedef struct {
 void displayPolynomial(Polynomial ply) {
 	int i;
 	float t;
-	for (i = 0; i < ply.degree; i++) {
+	for (i = 0; i <= ply.degree; i++) {
 		char sign[3] = " + ";
 		t = ply.terms[i];
 		if (i == 0)
@@ -58,19 +57,19 @@ int main() {
 
 	inputInt("Enter degree of polynomial 1: ", &ply1.degree);
 	printf("Enter terms: ");
-	for (i = 0; i < ply1.degree; i++)
+	for (i = 0; i <= ply1.degree; i++)
 		scanf(" %f", &ply1.terms[i]);
 
 	inputInt("Enter degree of polynomial 2: ", &ply2.degree);
 	printf("Enter terms: ");
-	for (i = 0; i < ply2.degree; i++)
+	for (i = 0; i <= ply2.degree; i++)
 		scanf(" %f", &ply2.terms[i]);
 
 
 	result = ply1.degree > ply2.degree ? ply1 : ply2;
 	diff = abs(ply1.degree - ply2.degree);
 
-	for (i = diff; i < result.degree; i++) {
+	for (i = diff; i <= result.degree; i++) {
 		t1 = t2 = i;
 		if(ply1.degree == result.degree) {
 			t1 = i;
@@ -86,5 +85,4 @@ int main() {
 	displayPolynomial(ply2);
 	line(30);
 	displayPolynomial(result);
-	return 0;
 }

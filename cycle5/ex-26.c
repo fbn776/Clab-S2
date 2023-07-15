@@ -19,6 +19,7 @@ int main() {
 	printf("Enter number of students: ");
 	scanf("%d", &n);
 
+	//Get the data
 	printf("Enter students details\n");
 	for (i = 0; i < n; i++) {
 		students[i].total = 0;
@@ -45,6 +46,7 @@ int main() {
 				students[j+1] = temp;
 			}
 
+	//Format the data and display it as a table.
 	printf("%-6s %-21s%-6s %-6s %-6s %-6s %-5s\n", "Reg-no", "Name", "Mark 1", "Mark 2", "Mark 3", "Mark 4", "Total");
 	for(i = 0; i < n; i++) {
 		printf("%6d %-21s", students[i].regno, students[i].name);

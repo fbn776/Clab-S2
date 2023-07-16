@@ -12,9 +12,9 @@
     sum, difference and product of two complex numbers. Input two complex numbers and
     display their sum, difference and product using the above functions.
 29. Implement the following string library functions using pointers:
-    1. string length (`int StringLengh(char *s)`
-    2. string copy (`void S tringCopy(char *s1, char *s2)`)
-    3. string comparison (`int Stri ngCompare (char *s1, char *s2)`)
+    1. string length (`int StringLength(char *s)`)
+    2. string copy (`void StringCopy(char *s1, char *s2)`)
+    3. string comparison (`int StringCompare (char *s1, char *s2)`)
     4. string concatenation (`void StringConcat(char *s1, char *s2)`)
 30. Write a program to find the smallest number in a list of integers using command line
     argument.

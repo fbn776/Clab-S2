@@ -30,6 +30,8 @@ void displayMatrix(int A[][30], int n, int m) {
 	}
 }
 
+
+//Hello there
 void main() {
 	int A[30][30], n, m, B[30][30], p, q, C[30][30];
 
